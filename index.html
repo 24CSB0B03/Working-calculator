@@ -242,6 +242,7 @@
                     }
                     result /= nextNumber;
                 }
+                else if (operator ==='%') result=result%nextNumber;
             }
             current = result.toString();
             document.getElementById("result").value = current;
